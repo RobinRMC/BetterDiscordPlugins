@@ -568,7 +568,7 @@ module.exports = (() => {
               ),
               new RadioGroup(
                 "FPS",
-                "Change smoother video preset FPS",
+                "Change Smoother Video preset FPS",
                 this.settings["smoothVideo"]["fps"],
                 fpsOptions,
                 (e) => {
