@@ -380,7 +380,7 @@ module.exports = (() => {
               }
             ),
             new Switch(
-              "Call timeout",
+              "Call camping",
               "Lets you stay alone in a call for longer than 5 minutes.",
               this.settings["bandwidth"],
               (e) => {
@@ -404,7 +404,7 @@ module.exports = (() => {
               }
             ),
             new ImagePicker(
-              "Custom Preview Image",
+              "Custom stream preview image",
               "Image to render as stream preview. (Must be under 200kb. If no image is provided, no stream preview will be shown.)",
               this.settings["fakePreview"],
               (e) => {
@@ -436,7 +436,7 @@ module.exports = (() => {
               }
             ),
             new Switch(
-              "Spotify Pause",
+              "Don't pause Spotify",
               "Prevents Discord from pausing your Spotify when streaming or gaming.",
               this.settings["spotifyPause"],
               (e) => {
