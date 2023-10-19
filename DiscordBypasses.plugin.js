@@ -478,8 +478,8 @@ module.exports = (() => {
               }
             ),
             new Switch(
-              "Client Themes bypass",
-              "Remove need of nitro from client themes which is experimental feature (Enable the experiment to toggle this setting).",
+              "Client themes",
+              "Remove the need of Nitro to use client themes, which is an experimental feature. (Enable the experiment to toggle this setting.)",
               this.settings["clientThemes"],
               (e) => {
                 this.settings["clientThemes"] = e;
